@@ -18,7 +18,7 @@ a {
 
 .board_wrap {
     width: 1000px;
-    margin: 100px auto;
+    margin: 100px auto 10px auto;
 }
 
 .board_title {
@@ -163,8 +163,8 @@ a {
 }
 
 .board_view .info {
-    padding: 15px;
-    border-bottom: 1px solid #999;
+    padding: 1px;
+    border-bottom: 2px solid #000000;
     font-size: 0;
 }
 
@@ -199,19 +199,19 @@ a {
     font-size: 1.4rem;
 }
 
-.board_view .info dl dt {
-
-}
-
 .board_view .info dl dd {
-    margin-left: 10px;
-    color: #777;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #000000;
 }
 
 .board_view .cont {
-    padding: 15px;
+    padding: 20px;
     border-bottom: 1px solid #000;
     line-height: 160%;
+    height: 250px;
+    text-align: left;
+    vertical-align: top;
     font-size: 1.4rem;
 }
 
@@ -300,139 +300,6 @@ a {
     resize: none;
 }
 
-.mbti_list {
-    text-align: center;
-    margin: 30px 0px 30px 0px;
-}
-
-.ENFJ {
-    background-color: #5e7e9b;
-    border: none;
-    color: white;
-
-    width: 50px;
-}
-
-.ENFP {
-    background-color: #fa9d49;
-    border: none;
-    color: white;
-
-    width: 50px;
-}
-
-.ENTJ {
-    background-color: #42639f;
-    border: none;
-    color: white;
-
-    width: 50px;
-}
-
-.ENTP {
-    background-color: #C84127;
-    border: none;
-    color: white;
-
-    width: 50px;
-}
-
-.ESFJ {
-    background-color: #FFD9E0;
-    border: none;
-    color: white;
-
-    width: 50px;
-}
-
-.ESFP {
-    background-color: #613f75;
-    border: none;
-    color: white;
-
-    width: 50px;
-}
-
-.ESTJ {
-    background-color: #5f8151;
-    border: none;
-    color: white;
-
-    width: 50px;
-}
-
-.ESTP {
-    background-color: #F28500;
-    border: none;
-    color: white;
-
-    width: 50px;
-}
-
-.INFJ {
-    background-color: #CBD8FB;
-    border: none;
-    color: white;
-
-    width: 50px;
-}
-
-.INFP {
-    background-color: #31796d;
-    border: none;
-    color: white;
-
-    width: 50px;
-}
-
-.INTJ {
-    background-color: #ae99d2;
-    border: none;
-    color: white;
-
-    width: 50px;
-}
-
-.INTP {
-    background-color: #73c2fb;
-    border: none;
-    color: white;
-
-    width: 50px;
-}
-
-.ISFJ {
-    background-color: #ffcd73;
-    border: none;
-    color: white;
-
-    width: 50px;
-}
-
-.ISFP {
-    background-color: #9ab973;
-    border: none;
-    color: white;
-
-    width: 50px;
-}
-
-.ISTJ {
-    background-color: #DCDCDC;
-    border: none;
-    color: white;
-
-    width: 50px;
-}
-
-.ISTP {
-    background-color: #438eac;
-    border: none;
-    color: white;
-
-    width: 50px;
-}
-
 .comments {
     width: 1000px;
     margin: 0px auto 0px auto;
@@ -451,5 +318,3 @@ a {
     border-radius: 5px;
     padding: 3px 3px;
 }
-
-

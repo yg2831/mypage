@@ -77,7 +77,6 @@ def create_title():
     title_receive = request.form['title_give']
     # mbti_receive = request.form['mbti_give']
     content_receive = request.form['content_give']
-    pw_receive = request.form['pw_give']
 
     create_list = list(db.mbtis_title.find({}, {'_id': False}))
     count = len(create_list) + 1
@@ -86,7 +85,6 @@ def create_title():
         'num': repr(count),
         'content': content_receive,
         # 'mbti': mbti_receive,
-        'pw' : pw_receive,
         'title' : title_receive
     }
     db.mbtis_title.insert_one(doc)
